@@ -1,5 +1,4 @@
 # Kullanım ;
-# venv\Scripts\activate
 # uvicorn main:app --reload
 
 from fastapi import FastAPI

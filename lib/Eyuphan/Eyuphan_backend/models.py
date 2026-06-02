@@ -52,4 +52,5 @@ class Budget(Base):
 
 # Veritabanı tablolarını otomatik oluşturma fonksiyonu
 def veritabanini_olustur():
-    Base.metadata.create_engine(bind=engine)
+    # Base.metadata.create_engine(bind=engine)
+    Base.metadata.create_all(bind=engine)

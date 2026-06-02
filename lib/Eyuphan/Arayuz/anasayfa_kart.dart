@@ -18,7 +18,7 @@ class AnaSayfa extends StatefulWidget {
 }
 
 class _AnaSayfaState extends State<AnaSayfa> {
-  String kullaniciAdi = "Metin";
+  String kullaniciAdi = "Kullanıcı";
   double numToplamHarcama = 5430.0;
   double numGelir = 15000.0;
   double numButce = 20000.0;
@@ -492,8 +492,8 @@ class _AnaSayfaState extends State<AnaSayfa> {
         leading: const Icon(Icons.menu, color: Colors.black),
         title: Text(
           backendBaglantisiVar
-              ? "Sunucu: Bağlı 🟢"
-              : "Sunucu: Çevrimdışı (Manuel Sunum Modu) 🟡",
+              ? ""
+              : "",
           style: TextStyle(
             fontSize: 11,
             color: backendBaglantisiVar ? Colors.green : Colors.orange,
